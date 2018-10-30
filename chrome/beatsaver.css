@@ -1,0 +1,61 @@
+body {
+    background-color: #222 !important;
+    color: #EEE !important;
+}
+
+.row a h2 {
+    color: #4ccfff !important;
+}
+
+.btn-default {
+    background-image: linear-gradient(to bottom,#333 0,#444 100%) !important;
+    border-color: #1d1d1d !important;
+    color: #EEE !important;
+    text-shadow: none !important;
+}
+
+.navbar-inverse {
+    border-color: #353535 !important;
+}
+
+.btn-default:focus, .btn-default:hover {
+    background-color: rgb(70, 70, 70) !important;
+}
+
+small a {
+    color: #4ccfff !important;
+}
+
+footer .text-center a {
+    color: #4ccfff !important;
+}
+
+.nav a {
+    color: #c2c2c2 !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+    background-image: linear-gradient(to bottom,#424242 0,#404040 100%) !important;
+}
+
+.form-control {
+    background-color: #000 !important;
+    color: #EEE !important;
+}
+
+::placeholder{
+    color: #EEE !important;
+    opacity: .8;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to bottom,#333 0,#444 100%) !important;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+    background-color: rgb(70, 70, 70) !important;
+}
+
+.input-group-btn .btn-primary {
+    border-color: #FFFFFF !important;
+}
