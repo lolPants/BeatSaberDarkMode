@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+
+    "name": "Beat Saber Dark Mode",
+    "description": "Applies a dark theme to beatsaver.com and scoresaber.com",
+    "version": "1.0",
+
+
+    "content_scripts": [
+        {
+            "matches": [
+                "https://beatsaver.com/*"
+            ],
+            "css": [
+                "beatsaver.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://scoresaber.com/*"
+            ],
+            "css": [
+                "scoresaber.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://scoresaber.com/top",
+                "https://scoresaber.com/leaderboard/*"
+            ],
+            "js": [
+                "removeStupidBgLight.js"
+            ]
+        }
+    ]
+}
