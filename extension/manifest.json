@@ -17,6 +17,7 @@
         },
         {
             "matches": [
+                "http://scoresaber.com/*",
                 "https://scoresaber.com/*"
             ],
             "css": [
