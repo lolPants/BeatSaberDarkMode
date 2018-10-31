@@ -100,6 +100,7 @@ table td.pp{
 .navbar .input{
     background-color: #000 !important;
     border-color: #4a4a4a !important;
+    color: #EEE !important;
 }
 
 .navbar .input:focus {
