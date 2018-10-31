@@ -26,10 +26,19 @@
         {
             "matches": [
                 "https://scoresaber.com/top",
-                "https://scoresaber.com/leaderboard/*"
+                "https://scoresaber.com/leaderboard/*",
+                "https://scoresaber.com/ranked"
             ],
             "js": [
                 "removeStupidBgLight.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://scoresaber.com/ranked"
+            ],
+            "css": [
+                "removeUselessDetails.css"
             ]
         }
     ]
