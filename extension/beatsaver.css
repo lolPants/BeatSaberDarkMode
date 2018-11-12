@@ -1,16 +1,74 @@
-body {
+:root {
+    --KlouderBlue™: #59b0f4;
+    --Background: #222;
+    --Foreground: #252525;
+    --ButtonGradient: linear-gradient(to bottom,#333 0,#444 100%);
+    --TextColor: #EEE;
+}
+
+html {
     background-color: #222 !important;
-    color: #EEE !important;
 }
 
-.row a h2 {
-    color: #4ccfff !important;
+body {
+    color: var(--TextColor) !important;
 }
 
-.btn-default {
-    background-image: linear-gradient(to bottom,#333 0,#444 100%) !important;
+body > div > article {
+    background-color: var(--Foreground) !important;
+}
+
+body > div > article > div {
+    color: var(--TextColor) !important;
+    border-color: var(--KlouderBlue™) !important;
+}
+
+body > div > article > div > a {
+    color: var(--KlouderBlue™) !important;
+}
+
+body > div > div > h2 > a {
+    color: var(--KlouderBlue™) !important;
+}
+
+body > div > div > h2 > span {
+    color: var(--KlouderBlue™) !important;
+}
+
+body > div > div > div > div:nth-child(2) > table {
+    background-color: var(--Foreground) !important;
+    color: var(--TextColor) !important;
+}
+
+body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(1) > th > small {
+    color: var(--TextColor) !important;
+}
+
+body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(5) > td > a {
+    background-image: var(--ButtonGradient) !important;
     border-color: #1d1d1d !important;
-    color: #EEE !important;
+    color: var(--TextColor) !important;
+    text-shadow: none !important;
+}
+
+body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(5) > td > button {
+    background-image: var(--ButtonGradient) !important;
+    border-color: #1d1d1d !important;
+    color: var(--TextColor) !important;
+    text-shadow: none !important;
+}
+
+body > div > div > div > div:nth-child(1) > a {
+    background-image: var(--ButtonGradient) !important;
+    border-color: #1d1d1d !important;
+    color: var(--TextColor) !important;
+    text-shadow: none !important;
+}
+
+body > div > div > div > div:nth-child(1) > button {
+    background-image: var(--ButtonGradient) !important;
+    border-color: #1d1d1d !important;
+    color: var(--TextColor) !important;
     text-shadow: none !important;
 }
 
@@ -22,12 +80,12 @@ body {
     background-color: rgb(70, 70, 70) !important;
 }
 
-small a {
-    color: #4ccfff !important;
+body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(1) > th > small > a {
+    color: var(--KlouderBlue™) !important;
 }
 
-footer .text-center a {
-    color: #4ccfff !important;
+body > footer > div > b > a {
+    color: var(--KlouderBlue™) !important;
 }
 
 .nav a {
@@ -40,11 +98,16 @@ footer .text-center a {
 
 .form-control {
     background-color: #000 !important;
-    color: #EEE !important;
+    color: var(--TextColor) !important;
+}
+
+#inputSearchKey
+{
+    background-color: #000 !important;
 }
 
 ::placeholder{
-    color: #EEE !important;
+    color: var(--TextColor) !important;
     opacity: .8;
 }
 
@@ -58,4 +121,25 @@ footer .text-center a {
 
 .input-group-btn .btn-primary {
     border-color: #FFFFFF !important;
+}
+
+body > div > div > div > form > h2 {
+    color: var(--TextColor) !important;
+}
+
+#inputEmail {
+    background-color: #000 !important;
+    color: var(--TextColor) !important;
+}
+
+#inputPassword {
+    background-color: #000 !important;
+    color: var(--TextColor) !important;
+}
+
+body > div > div > div > div > a {
+    background-image: var(--ButtonGradient) !important;
+    border-color: #1d1d1d !important;
+    color: var(--TextColor) !important;
+    text-shadow: none !important;
 }
