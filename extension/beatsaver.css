@@ -104,6 +104,7 @@ body > footer > div > b > a {
 #inputSearchKey
 {
     background-color: #000 !important;
+    color: var(--TextColor) !important;
 }
 
 ::placeholder{
@@ -142,4 +143,9 @@ body > div > div > div > div > a {
     border-color: #1d1d1d !important;
     color: var(--TextColor) !important;
     text-shadow: none !important;
+}
+
+body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(6) > td:nth-child(1) > div > form > button {
+    background-color: var(--Background) !important;
+    color: var(--TextColor) !important;
 }

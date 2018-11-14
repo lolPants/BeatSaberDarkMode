@@ -3,13 +3,24 @@
 
     "name": "Beat Saber Dark Mode",
     "description": "Applies a dark theme to beatsaver.com and scoresaber.com",
-    "version": "1.0",
+    "version": "1.1.1",
 
+    "icons": {
+        "16": "images/logo16.png",
+        "32": "images/logo32.png",
+        "48": "images/logo48.png",
+        "128": "images/logo128.png"
+    },
+
+    "browser_action": {
+        "default_icon": "images/logo32.png"
+    },
 
     "content_scripts": [
         {
             "matches": [
-                "https://beatsaver.com/*"
+                "https://beatsaver.com/*",
+                "https://www.beatsaver.com/*"
             ],
             "css": [
                 "beatsaver.css"
