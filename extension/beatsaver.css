@@ -2,7 +2,7 @@
     --KlouderBlue™: #59b0f4;
     --Background: #222;
     --Foreground: #252525;
-    --ButtonGradient: linear-gradient(to bottom,#333 0,#444 100%);
+    --ButtonGradient: linear-gradient(to bottom, #333 0, #444 100%);
     --TextColor: #EEE;
 }
 
@@ -76,7 +76,8 @@ body > div > div > div > div:nth-child(1) > button {
     border-color: #353535 !important;
 }
 
-.btn-default:focus, .btn-default:hover {
+.btn-default:focus,
+.btn-default:hover {
     background-color: rgb(70, 70, 70) !important;
 }
 
@@ -92,8 +93,9 @@ body > footer > div > b > a {
     color: #c2c2c2 !important;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
-    background-image: linear-gradient(to bottom,#424242 0,#404040 100%) !important;
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .open > a {
+    background-image: linear-gradient(to bottom, #424242 0, #404040 100%) !important;
 }
 
 .form-control {
@@ -101,22 +103,22 @@ body > footer > div > b > a {
     color: var(--TextColor) !important;
 }
 
-#inputSearchKey
-{
+#inputSearchKey {
     background-color: #000 !important;
     color: var(--TextColor) !important;
 }
 
-::placeholder{
+::placeholder {
     color: var(--TextColor) !important;
     opacity: .8;
 }
 
 .btn-primary {
-    background-image: linear-gradient(to bottom,#333 0,#444 100%) !important;
+    background-image: linear-gradient(to bottom, #333 0, #444 100%) !important;
 }
 
-.btn-primary:focus, .btn-primary:hover {
+.btn-primary:focus,
+.btn-primary:hover {
     background-color: rgb(70, 70, 70) !important;
 }
 
