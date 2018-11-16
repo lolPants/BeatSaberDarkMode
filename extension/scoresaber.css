@@ -1,37 +1,37 @@
 :root {
-    --Background: #222;
-    --Foreground: #252525;
-    --ButtonGradient: linear-gradient(to bottom, #333 0, #444 100%);
-    --TextColor: #EEE;
+    --background: #222;
+    --foreground: #252525;
+    --buttonGradient: linear-gradient(to bottom, #333 0, #444 100%);
+    --textColor: #EEE;
 
     --ppColour: #8992e8;
     --alternate: #72a8ff;
 }
 
 html {
-    background-color: var(--Background) !important;
+    background-color: var(--background) !important;
 }
 
 body {
-    background-color: var(--Background) !important;
+    background-color: var(--background) !important;
 }
 
 .navbar.has-shadow {
-    background-color: var(--Foreground) !important;
+    background-color: var(--foreground) !important;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.35) !important;
 }
 
 .navbar.navbar-expand-lg.navbar-light.bg-light {
-    color: var(--Foreground) !important;
+    color: var(--foreground) !important;
 }
 
 .title {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 .box.has-shadow {
-    background-color: var(--Foreground) !important;
-    color: var(--TextColor) !important;
+    background-color: var(--foreground) !important;
+    color: var(--textColor) !important;
 
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.23), 0 5px 15px rgba(0, 0, 0, 0.18);
 }
@@ -45,7 +45,7 @@ a {
 }
 
 a.navbar-item {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 a.navbar-item:hover {
@@ -53,27 +53,27 @@ a.navbar-item:hover {
 }
 
 strong {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 th {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 span.songBottom.time {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 span.scoreTop.ppWeightedValue {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 span.scoreBottom {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 a.pagination-link {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 .diff{
@@ -81,7 +81,7 @@ a.pagination-link {
 }
 
 .card {
-    background-color: var(--Foreground) !important;
+    background-color: var(--foreground) !important;
 }
 
 h4 {
@@ -89,11 +89,11 @@ h4 {
 }
 
 label {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 table td {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 span.scoreTop.ppValue {
@@ -114,13 +114,13 @@ table td.pp {
 
 .pagination .button {
     background-color: #2d2d2d !important;
-    border-color: var(--Foreground) !important;
+    border-color: var(--foreground) !important;
 }
 
 .navbar .input {
     background-color: rgba(0, 0, 0, 0.46) !important;
     border-color: #4a4a4a !important;
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 .navbar .input:focus {
@@ -137,28 +137,28 @@ table td.pp {
 }
 
 .card-body {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 #chart > svg > g:nth-child(4) > g > text {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 #chart > svg > g:nth-child(4) > g > rect {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 .btn.btn-raised.btn-primary {
-    background-color: var(--Foreground) !important;
+    background-color: var(--foreground) !important;
     box-shadow: none !important;
 }
 
 ::placeholder {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 .form-control {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 #chart > svg > g:nth-child(4) {
@@ -167,5 +167,5 @@ table td.pp {
 
 .select select {
     background-color: #2d2d2d !important;
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
