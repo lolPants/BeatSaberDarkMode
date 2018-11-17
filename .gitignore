@@ -6,3 +6,5 @@
 
 .history
 
+*.crx
+*.pem
