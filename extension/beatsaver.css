@@ -1,75 +1,77 @@
 :root {
-    --KlouderBlue™: #59b0f4;
-    --Background: #222;
-    --Foreground: #252525;
-    --ButtonGradient: linear-gradient(to bottom, #333 0, #444 100%);
-    --TextColor: #EEE;
+    --background: #222;
+    --foreground: #252525;
+    --textColor: #EEE;
+
+    --ppColour: #8992e8;
+    --alternate: #72a8ff;
+    --buttonColour: #555555;
 }
 
 html {
-    background-color: #222 !important;
+    background-color: var(--background) !important;
 }
 
 body {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
+}
+
+hr {
+    background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 body > div > article {
-    background-color: var(--Foreground) !important;
+    background-color: #363636 !important;
+    margin-top: 20px;
 }
 
 body > div > article > div {
-    color: var(--TextColor) !important;
-    border-color: var(--KlouderBlue™) !important;
+    color: var(--textColor) !important;
+    border-color: var(--ppColour) !important;
 }
 
 body > div > article > div > a {
-    color: var(--KlouderBlue™) !important;
+    color: var(--alternate) !important;
 }
 
 body > div > div > h2 > a {
-    color: var(--KlouderBlue™) !important;
+    color: var(--alternate) !important;
 }
 
 body > div > div > h2 > span {
-    color: var(--KlouderBlue™) !important;
+    color: var(--alternate) !important;
+}
+
+table td, table th {
+    border-color:rgba(219, 219, 219, 0.3) !important;
 }
 
 body > div > div > div > div:nth-child(2) > table {
-    background-color: var(--Foreground) !important;
-    color: var(--TextColor) !important;
+    background-color: transparent !important;
+    color: var(--textColor) !important;
 }
 
 body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(1) > th > small {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
-body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(5) > td > a {
-    background-image: var(--ButtonGradient) !important;
-    border-color: #1d1d1d !important;
-    color: var(--TextColor) !important;
-    text-shadow: none !important;
-}
-
+a.button,
+body > div > div > div > div:nth-child(1) > a,
+body > div > div > div > div:nth-child(1) > button,
+body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(5) > td > a,
 body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(5) > td > button {
-    background-image: var(--ButtonGradient) !important;
-    border-color: #1d1d1d !important;
-    color: var(--TextColor) !important;
+    background-color: var(--buttonColour) !important;
+    color: rgb(240, 240, 240) !important;
+    border: none;
     text-shadow: none !important;
 }
 
-body > div > div > div > div:nth-child(1) > a {
-    background-image: var(--ButtonGradient) !important;
-    border-color: #1d1d1d !important;
-    color: var(--TextColor) !important;
-    text-shadow: none !important;
+.button.is-info {
+    background-color: var(--ppColour) !important;
 }
 
-body > div > div > div > div:nth-child(1) > button {
-    background-image: var(--ButtonGradient) !important;
-    border-color: #1d1d1d !important;
-    color: var(--TextColor) !important;
-    text-shadow: none !important;
+.button.is-link {
+    background-color: #3273dc !important;
 }
 
 .navbar-inverse {
@@ -82,11 +84,11 @@ body > div > div > div > div:nth-child(1) > button {
 }
 
 body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(1) > th > small > a {
-    color: var(--KlouderBlue™) !important;
+    color: var(--alternate) !important;
 }
 
 body > footer > div > b > a {
-    color: var(--KlouderBlue™) !important;
+    color: var(--alternate) !important;
 }
 
 .nav a {
@@ -98,18 +100,31 @@ body > footer > div > b > a {
     background-image: linear-gradient(to bottom, #424242 0, #404040 100%) !important;
 }
 
-.form-control {
-    background-color: #000 !important;
-    color: var(--TextColor) !important;
+.navbar.has-shadow {
+    box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.07) !important;
 }
 
-#inputSearchKey {
+.form-control {
     background-color: #000 !important;
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
+}
+
+.label,
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: var(--textColor) !important;
+}
+
+#inputEmail,
+#inputPassword,
+#inputPasswordConfirm,
+#inputSearchKey {
+    background-color: rgba(0, 0, 0, 0.46) !important;
+    border-color: #4a4a4a !important;
+    color: var(--textColor) !important;
 }
 
 ::placeholder {
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
     opacity: .8;
 }
 
@@ -127,27 +142,17 @@ body > footer > div > b > a {
 }
 
 body > div > div > div > form > h2 {
-    color: var(--TextColor) !important;
-}
-
-#inputEmail {
-    background-color: #000 !important;
-    color: var(--TextColor) !important;
-}
-
-#inputPassword {
-    background-color: #000 !important;
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
 }
 
 body > div > div > div > div > a {
-    background-image: var(--ButtonGradient) !important;
+    background-image: var(--buttonColour) !important;
     border-color: #1d1d1d !important;
-    color: var(--TextColor) !important;
+    color: var(--textColor) !important;
     text-shadow: none !important;
 }
 
 body > div > div > div > div:nth-child(2) > table > tbody > tr:nth-child(6) > td:nth-child(1) > div > form > button {
-    background-color: var(--Background) !important;
-    color: var(--TextColor) !important;
+    background-color: var(--background) !important;
+    color: var(--textColor) !important;
 }
