@@ -60,10 +60,6 @@ a.pagination-link{
     color: var(--TextColor) !important;
 }
 
-.diff span[style]{
-    color: var(--TextColor) !important;
-}
-
 .diff{
     text-align: center !important;
 }
